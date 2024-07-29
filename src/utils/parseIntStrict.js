@@ -1,4 +1,3 @@
-
 /**
  * Parse a given value to Integer or NaN.
  * E.g:

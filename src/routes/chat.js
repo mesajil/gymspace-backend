@@ -1,9 +1,8 @@
-const { Router } = require("express");
-const getResponse = require("../controllers/chat/getResponse");
+const { Router } = require('express')
+const getResponse = require('../controllers/chat/getResponse')
 
-const router = Router();
+const router = Router()
 
-router.post("/response", getResponse)
+router.post('/response', getResponse)
 
 module.exports = router
-

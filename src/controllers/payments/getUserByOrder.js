@@ -1,5 +1,5 @@
-const { UserProducts, UserServices, Users } = require("../../db");
-const getOrderOwner = require("../../handlers/payments/getOrderOwner");
+const { UserProducts, UserServices, Users } = require('../../db')
+const getOrderOwner = require('../../handlers/payments/getOrderOwner')
 
 const updateOrder = async (req, res) => {
     try {
@@ -8,7 +8,7 @@ const updateOrder = async (req, res) => {
         return res.json(user)
     } catch (error) {
         console.log(error)
-        return res.status(404).json({ error: error.message });
+        return res.status(404).json({ error: error.message })
     }
 }
 module.exports = updateOrder

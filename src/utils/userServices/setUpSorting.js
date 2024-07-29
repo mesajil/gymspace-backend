@@ -1,30 +1,24 @@
-const { Users, Services } = require('../../db');
-const userSetUpSorting = require("../users/setUpSorting")
-const serviceSetUpSorting = require("../services/setUpSorting")
+const { Users, Services } = require('../../db')
+const userSetUpSorting = require('../users/setUpSorting')
+const serviceSetUpSorting = require('../services/setUpSorting')
 
-module.exports = (conditions) => {
-
-    const {
-        sort_startDate, sort_finishDate,
-        sort_userId,
-        sort_serviceId,
-        sort_valuation,
-    } = conditions
+module.exports = conditions => {
+    const { sort_startDate, sort_finishDate, sort_userId, sort_serviceId, sort_valuation } = conditions
 
     let userServiceOrder = []
 
     const addOrder = (field, direction) => {
-        const directions = ["ASC", "DESC"]
+        const directions = ['ASC', 'DESC']
         if (directions.includes(direction)) {
-            userServiceOrder.push([field, direction]);
+            userServiceOrder.push([field, direction])
         }
     }
 
-    addOrder("startDate", sort_startDate?.trim().toUpperCase());
-    addOrder("finishDate", sort_finishDate?.trim().toUpperCase());
-    addOrder("userID", sort_userId?.trim().toUpperCase());
-    addOrder("serviceID", sort_serviceId?.trim().toUpperCase());
-    addOrder("valuation", sort_valuation?.trim().toUpperCase());
+    addOrder('startDate', sort_startDate?.trim().toUpperCase())
+    addOrder('finishDate', sort_finishDate?.trim().toUpperCase())
+    addOrder('userID', sort_userId?.trim().toUpperCase())
+    addOrder('serviceID', sort_serviceId?.trim().toUpperCase())
+    addOrder('valuation', sort_valuation?.trim().toUpperCase())
 
     const userOrderConditions = {
         sort_fname: conditions.sort_userFirstName,

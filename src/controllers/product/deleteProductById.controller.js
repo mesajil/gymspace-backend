@@ -1,22 +1,21 @@
-const { Products } = require("../../db");
+const { Products } = require('../../db')
 
-
-const deleteProduct = async(req,res)=>{
-    try{
-        let {id} = req.params
+const deleteProduct = async (req, res) => {
+    try {
+        let { id } = req.params
         console.log(id)
         const productToDelete = await Products.findByPk(id)
 
-        if(!productToDelete) {
-            return res.status(422).send({message:"Product not found"})
+        if (!productToDelete) {
+            return res.status(422).send({ message: 'Product not found' })
         }
 
         await productToDelete.destroy()
         return res.status(200).json(productToDelete)
-    } catch(error){
+    } catch (error) {
         res.status(404)
-        res.send({message: error.message}) 
+        res.send({ message: error.message })
     }
 }
 
-module.exports = {deleteProduct}
+module.exports = { deleteProduct }

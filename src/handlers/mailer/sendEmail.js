@@ -1,18 +1,17 @@
-const nodemailer = require("nodemailer")
-const messageTemplate = require("../../utils/mails/message");
+const nodemailer = require('nodemailer')
+const messageTemplate = require('../../utils/mails/message')
 
 const sendEmail = async (userData, messageData) => {
-
     // Prepare message
 
-    const { firstName, lastName, email, } = userData
+    const { firstName, lastName, email } = userData
     const { subject, body, link } = messageData
     const html = messageTemplate(firstName, lastName, body, link)
 
     // Create transport config
 
     const config = {
-        host: "smtp-relay.brevo.com",
+        host: 'smtp-relay.brevo.com',
         port: 2525,
         secure: false,
         auth: {
@@ -28,7 +27,7 @@ const sendEmail = async (userData, messageData) => {
         from: `GymSpace helpdesk@gymspace.com`,
         to: email,
         subject,
-        html
+        html,
     }
 
     // Send email

@@ -1,6 +1,6 @@
-const { UserProducts, UserServices } = require("../../db");
+const { UserProducts, UserServices } = require('../../db')
 
-const updateOrder = async (data) => {
+const updateOrder = async data => {
     const {
         external_reference: mp_external_reference,
         payment_id: mp_payment_id,
@@ -16,8 +16,8 @@ const updateOrder = async (data) => {
             mp_merchant_order_id,
         },
         {
-            where: { mp_external_reference }
-        }
+            where: { mp_external_reference },
+        },
     )
 
     // Update UserServices
@@ -29,8 +29,8 @@ const updateOrder = async (data) => {
             mp_merchant_order_id,
         },
         {
-            where: { mp_external_reference }
-        }
+            where: { mp_external_reference },
+        },
     )
 }
 

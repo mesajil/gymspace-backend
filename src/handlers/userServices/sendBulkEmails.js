@@ -1,8 +1,7 @@
-const sendEmail = require("../mailer/sendEmail")
+const sendEmail = require('../mailer/sendEmail')
 
 module.exports = async (orders, messageData) => {
-
-    orders.forEach(async (order) => {
+    orders.forEach(async order => {
         const userData = {
             firstName: order.User.firstName,
             lastName: order.User.lastName,
@@ -10,5 +9,5 @@ module.exports = async (orders, messageData) => {
         }
         // console.log(userData);
         await sendEmail(userData, messageData)
-    });
+    })
 }

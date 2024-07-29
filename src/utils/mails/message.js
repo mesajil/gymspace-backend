@@ -1,4 +1,3 @@
-
 module.exports = (firstName, lastName, html, link) => `
   <!DOCTYPE html>
   <html lang="en">
@@ -62,4 +61,4 @@ module.exports = (firstName, lastName, html, link) => `
     </div>
   </body>
   </html>
-`;
+`

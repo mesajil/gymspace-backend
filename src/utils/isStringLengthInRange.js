@@ -6,8 +6,8 @@
  * @returns {boolean} - True if the string length is within the range, otherwise false.
  */
 function isStringLengthInRange(string, minLength = 0, maxLength = Number.POSITIVE_INFINITY) {
-    const length = string.length;
-    return length >= minLength && length <= maxLength;
+    const length = string.length
+    return length >= minLength && length <= maxLength
 }
 
 module.exports = { isStringLengthInRange }

@@ -1,7 +1,14 @@
-const { Products, Services, Users } = require("../../db");
-const { isStringLengthInRange, isValidImageUrl, isValidPositiveInteger, isValidPositiveNumber, isValidUUID, validateSimpleDate } = require("../../utils");
+const { Products, Services, Users } = require('../../db')
+const {
+    isStringLengthInRange,
+    isValidImageUrl,
+    isValidPositiveInteger,
+    isValidPositiveNumber,
+    isValidUUID,
+    validateSimpleDate,
+} = require('../../utils')
 
-const validateItem = async (item) => {
+const validateItem = async item => {
     const {
         id,
         // title,
@@ -15,7 +22,7 @@ const validateItem = async (item) => {
     } = item
     const errors = []
 
-    // Validate title 
+    // Validate title
 
     // if (!title) errors.push("Product must have a title");
 
@@ -29,7 +36,7 @@ const validateItem = async (item) => {
     // Validate quantity
 
     if (!isValidPositiveInteger(quantity) || quantity < 1)
-        throw new Error("quantity must be a positive integer greater than zero.");
+        throw new Error('quantity must be a positive integer greater than zero.')
 
     // Validate picture_url
 
@@ -41,39 +48,29 @@ const validateItem = async (item) => {
     // Validate currency_id if it exist
 
     if (currency_id && !isStringLengthInRange(currency_id, 3, 3))
-        errors.push("currency_id must be a currency code. e.g: 'USD'");
+        errors.push("currency_id must be a currency code. e.g: 'USD'")
 
     // Validate description
 
     // if (!description)
     //     errors.push("Product must have a description");
 
-
     // Validate itemId
 
-    if (!isValidUUID(id))
-        throw new Error("ItemId must be a valid UUID format")
+    if (!isValidUUID(id)) throw new Error('ItemId must be a valid UUID format')
 
     // Validate existing item
 
-    const [productFound, serviceFound] = await Promise.all([
-        Products.findByPk(id),
-        Services.findByPk(id),
-    ])
+    const [productFound, serviceFound] = await Promise.all([Products.findByPk(id), Services.findByPk(id)])
 
-    if (!productFound && !serviceFound)
-        throw new Error("item not found")
+    if (!productFound && !serviceFound) throw new Error('item not found')
 
     // Validate Product
 
     if (productFound) {
-
         // Validate product is available for selling
 
-        const productAcceptanceStatusList = [
-            "available",
-            "disponible"
-        ]
+        const productAcceptanceStatusList = ['available', 'disponible']
 
         const productStatus = productFound.status.toLowerCase()
 
@@ -84,41 +81,29 @@ const validateItem = async (item) => {
 
         const finalStock = productFound.stockNow - quantity
 
-        if (quantity && (finalStock < 0))
-            throw new Error(`Insufficient stock`)
+        if (quantity && finalStock < 0) throw new Error(`Insufficient stock`)
     }
 
     // Validate Service
-
     else if (serviceFound) {
-
         // Validate product is available for selling
 
-        const serviceAvailableStatus = [
-            "habilitado",
-            "available",
-            "active",
-        ]
+        const serviceAvailableStatus = ['habilitado', 'available', 'active']
 
-        const serviceStatus = serviceFound.status.toLowerCase();
+        const serviceStatus = serviceFound.status.toLowerCase()
 
-        if (!serviceAvailableStatus.includes(serviceStatus))
-            throw new Error(`Service is not available for selling`)
+        if (!serviceAvailableStatus.includes(serviceStatus)) throw new Error(`Service is not available for selling`)
 
         // Validate sufficient seats
 
         // Validate startDate
 
-        if (!startDate || !validateSimpleDate(startDate))
-            throw new Error(`StartDate is invalid or mising.`)
+        if (!startDate || !validateSimpleDate(startDate)) throw new Error(`StartDate is invalid or mising.`)
 
         // Validate finishDate
 
-        if (!finishDate || !validateSimpleDate(finishDate))
-            throw new Error(`FinishDate is invalid or mising.`)
-
+        if (!finishDate || !validateSimpleDate(finishDate)) throw new Error(`FinishDate is invalid or mising.`)
     }
-
 }
 
 module.exports = validateItem

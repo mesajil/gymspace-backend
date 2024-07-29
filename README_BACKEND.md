@@ -1,54 +1,53 @@
-
                               ** 🅶🆈🅼🆂🅿🅰🅲🅴 **
 
-#  𝐏𝐫𝐨𝐲𝐞𝐜𝐭𝐨 𝐟𝐢𝐧𝐚𝐥
+# 𝐏𝐫𝐨𝐲𝐞𝐜𝐭𝐨 𝐟𝐢𝐧𝐚𝐥
 
 ## **📌 OBJETIVOS**
 
--  Construir una aplicación de página única (SPA) utilizando tecnologías como React, Node, Y MUI garantizando un rendimiento eficiente y una gestión integral de la aplicación.
--  Requisito TECH: Deploy - Asegurar que la aplicación esté desplegada en una plataforma accesible públicamente.
+-   Construir una aplicación de página única (SPA) utilizando tecnologías como React, Node, Y MUI garantizando un rendimiento eficiente y una gestión integral de la aplicación.
+-   Requisito TECH: Deploy - Asegurar que la aplicación esté desplegada en una plataforma accesible públicamente.
 
-## ** 🚀  Aplicar Principios de Diseño UX/UI: **
+## ** 🚀 Aplicar Principios de Diseño UX/UI: **
 
--  Implementar Material-UI (MUI) y styled-components para crear una interfaz de usuario atractiva, coherente y altamente funcional.
--  Utilizar styled-components para la creación de estilos, asegurando una presentación visual coherente y agradable.
--  Incorporar react-material-ui-carousel para mejorar la experiencia del usuario al presentar imágenes y contenido visual.
-- Requisito TECH: Auth de terceros integrada - Garantizar una experiencia de usuario fluida y segura al permitir registros y logins a través de terceros.
+-   Implementar Material-UI (MUI) y styled-components para crear una interfaz de usuario atractiva, coherente y altamente funcional.
+-   Utilizar styled-components para la creación de estilos, asegurando una presentación visual coherente y agradable.
+-   Incorporar react-material-ui-carousel para mejorar la experiencia del usuario al presentar imágenes y contenido visual.
+-   Requisito TECH: Auth de terceros integrada - Garantizar una experiencia de usuario fluida y segura al permitir registros y logins a través de terceros.
 
-## ** 🚀  Integrar Tecnologías de Vanguardia: **
+## ** 🚀 Integrar Tecnologías de Vanguardia: **
 
--  Utilizar herramientas modernas como Axios para realizar solicitudes HTTP de manera eficiente, facilitando la comunicación con el back-end.
--  Integrar react-router-dom para gestionar la navegación entre las diversas vistas de la aplicación de manera eficiente.
--  Requisito TECH: Pasarela de pagos - Implementar pagos seguros para productos y servicios utilizando MercadoPago.
+-   Utilizar herramientas modernas como Axios para realizar solicitudes HTTP de manera eficiente, facilitando la comunicación con el back-end.
+-   Integrar react-router-dom para gestionar la navegación entre las diversas vistas de la aplicación de manera eficiente.
+-   Requisito TECH: Pasarela de pagos - Implementar pagos seguros para productos y servicios utilizando MercadoPago.
 
-## ** 🚀  Aplicar flujo de trabajo eficiente de GIT: **
+## ** 🚀 Aplicar flujo de trabajo eficiente de GIT: **
 
--  Seguir buenas prácticas de Git, realizando commits significativos y descriptivos para mantener un historial claro y comprensible del desarrollo.
--  Utilizar el script "start" para servir la aplicación de manera local durante el desarrollo, asegurando un flujo de trabajo suave y colaborativo.
--  Requisito TECH: Dashboard admin - Facilitar la gestión de usuarios y productos mediante un panel de administrador.
+-   Seguir buenas prácticas de Git, realizando commits significativos y descriptivos para mantener un historial claro y comprensible del desarrollo.
+-   Utilizar el script "start" para servir la aplicación de manera local durante el desarrollo, asegurando un flujo de trabajo suave y colaborativo.
+-   Requisito TECH: Dashboard admin - Facilitar la gestión de usuarios y productos mediante un panel de administrador.
 
-## ** 🚀  Pruebas Prácticas: **
+## ** 🚀 Pruebas Prácticas: **
 
--  Implementar pruebas unitarias utilizando las herramientas proporcionadas por React y otras bibliotecas relevantes, garantizando la robustez y confiabilidad del código.
--  Asegurar la estabilidad y confiabilidad de la aplicación mediante pruebas de integración exhaustivas.
--  Requisito TECH: Borrado lógico - Implementar borrado lógico en productos, servicios y usuarios para una gestión más efectiva de los datos.
+-   Implementar pruebas unitarias utilizando las herramientas proporcionadas por React y otras bibliotecas relevantes, garantizando la robustez y confiabilidad del código.
+-   Asegurar la estabilidad y confiabilidad de la aplicación mediante pruebas de integración exhaustivas.
+-   Requisito TECH: Borrado lógico - Implementar borrado lógico en productos, servicios y usuarios para una gestión más efectiva de los datos.
 
-## ** 🚀  Cumplir con Historias de Usuarios: **
+## ** 🚀 Cumplir con Historias de Usuarios: **
 
--  Desarrollar funcionalidades basadas en las User Stories definidas para satisfacer las necesidades específicas de los clientes y profesores del gimnasio.
--  Integrar mui-file-input para mejorar la experiencia de carga y manipulación de archivos, facilitando la interacción del usuario.
--  Requisito TECH: Reviews/puntuación - Permitir a los usuarios proporcionar opiniones y valoraciones sobre productos, clases e instructores.
+-   Desarrollar funcionalidades basadas en las User Stories definidas para satisfacer las necesidades específicas de los clientes y profesores del gimnasio.
+-   Integrar mui-file-input para mejorar la experiencia de carga y manipulación de archivos, facilitando la interacción del usuario.
+-   Requisito TECH: Reviews/puntuación - Permitir a los usuarios proporcionar opiniones y valoraciones sobre productos, clases e instructores.
 
-## ** 🚀  Documentar el Flujo y la Lógica del Front-end: **
+## ** 🚀 Documentar el Flujo y la Lógica del Front-end: **
 
--  Proporcionar una explicación detallada del flujo y la lógica de construcción del front-end en el README, incluyendo la estructura y organización de los componentes, así como cualquier patrón de diseño utilizado.
--  Requisito TECH: Cloudinary/upload/bucket - Explicar cómo se utiliza Cloudinary para almacenar imágenes de productos y servicios.
+-   Proporcionar una explicación detallada del flujo y la lógica de construcción del front-end en el README, incluyendo la estructura y organización de los componentes, así como cualquier patrón de diseño utilizado.
+-   Requisito TECH: Cloudinary/upload/bucket - Explicar cómo se utiliza Cloudinary para almacenar imágenes de productos y servicios.
 
-## ** 🚀   Aprender y Mejorar Constantemente: **
+## ** 🚀 Aprender y Mejorar Constantemente: **
 
--  Buscar oportunidades para aprender nuevas tecnologías y enfoques durante el desarrollo del proyecto, manteniéndose al tanto de las últimas actualizaciones y tendencias.
--  Estar abierto a la retroalimentación y realizar mejoras continuas en la aplicación, considerando las actualizaciones de las herramientas utilizadas y buscando siempre la excelencia en el desarrollo.
--  Requisito TECH: Filtros combinados - Mejorar la interfaz del usuario mediante filtros combinados para servicios y productos.
+-   Buscar oportunidades para aprender nuevas tecnologías y enfoques durante el desarrollo del proyecto, manteniéndose al tanto de las últimas actualizaciones y tendencias.
+-   Estar abierto a la retroalimentación y realizar mejoras continuas en la aplicación, considerando las actualizaciones de las herramientas utilizadas y buscando siempre la excelencia en el desarrollo.
+-   Requisito TECH: Filtros combinados - Mejorar la interfaz del usuario mediante filtros combinados para servicios y productos.
 
 <br />
 
@@ -69,6 +68,7 @@ Esto instalará todas las dependencias necesarias.
 ```bash
    npm start
 ```
+
 Esta acción activará el manejo de datos locales y permitirá su utilización en diferentes partes de la aplicación.
 
 Siguiendo estos pasos, tendrás acceso a los datos locales almacenados en el proyecto, optimizando el desarrollo y la interacción con la información necesaria.
@@ -78,17 +78,17 @@ de esta manera se te levantara el back
 
 [nodemon] 3.0.1
 [nodemon] to restart at any time, enter `rs`
-[nodemon] watching path(s): *.*
+[nodemon] watching path(s): _._
 [nodemon] watching extensions: js,mjs,cjs,json
 [nodemon] starting `node index.js`
 %s listening at 3001
-**************************    GymSpace    ***********************
+************\*\************* GymSpace **********\*\*\***********
+
 ---
 
 ## 📖 ENUNCIADO GENERAL
 
 Este proyecto tiene como propósito la creación de una aplicación, guiándonos por la descripción detallada de una plataforma de administración de gimnasios. La aplicación proporcionará una experiencia completa a los usuarios y facilitará la gestión eficiente de servicios y productos del gimnasio.
-
 
 ```bash
 
@@ -97,7 +97,7 @@ Objetivos Claves:
 
 ```bash
 
-recordar que el back esta deployado link del deploy 
+recordar que el back esta deployado link del deploy
 (https://gymspace-backend.onrender.com/)
 ```
 
@@ -145,20 +145,20 @@ Facilitar a los administradores la capacidad de agregar, editar o eliminar servi
 
 Mantener un registro de la disponibilidad de clases, permitir inscripciones, y gestionar eficientemente los pagos, incluyendo recordatorios cuando sea necesario.
 
-## Importante: 
+## Importante:
 
-- **Node.js / Express**: Backend construido con Node.js y el framework Express.
-- **Sequelize**: ORM para interactuar con la base de datos PostgreSQL.
+-   **Node.js / Express**: Backend construido con Node.js y el framework Express.
+-   **Sequelize**: ORM para interactuar con la base de datos PostgreSQL.
 
 <br />
 
-Es importante recodar que las dependencias las tendras una vez que ejecutes en la terminal 
-
+Es importante recodar que las dependencias las tendras una vez que ejecutes en la terminal
 
 ```bash
 
 npm install
 ```
+
 <br />
 
 ---
@@ -167,12 +167,14 @@ npm install
 
 3. En la carpeta **`api`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
 
-   ```env
-       DB_HOST =isabelle.db.elephantsql.com
-       DB_USER =ugdgulic 
-       DB_NAME = ugdgulic 
-       DB_PASSWORD = 38J5zHz3ozwIpgzmXr1xvdFEU_seX1H3
-   ``
+    ```env
+        DB_HOST =isabelle.db.elephantsql.com
+        DB_USER =ugdgulic
+        DB_NAME = ugdgulic
+        DB_PASSWORD = 38J5zHz3ozwIpgzmXr1xvdFEU_seX1H3
+    ``
+
+    ```
 
 4. Adicionalmente será necesario que crees, **desde psqlTools**, una base de datos llamada **`GymSpace`**. y configurar con los datos para que no exista problemas en el lavantamiento del back.
 
@@ -215,13 +217,13 @@ Se establecen las relaciones entre los modelos para reflejar la estructura de la
 Finalmente, se exportan los modelos y la instancia de Sequelize para su uso en otras partes de la aplicación.
 Este archivo sirve como el punto central para la interacción con la base de datos, proporcionando un contexto unificado para acceder y manipular los datos.
 
-tendra los siguientes models 
+tendra los siguientes models
 
 **`Coaches.js, Products.js, Sercives.js, UserProducts.js, Users.js, UserServices.js, Reviews.js, ServiceCoach.js`**
 
 A continuaciòn se brindara la logica y funcionalidad de los models
 
- **📍 MODELO 1 | Coaches,js** 
+**📍 MODELO 1 | Coaches,js**
 
 Lógica y Funcionalidad:
 
@@ -230,7 +232,7 @@ Cada entrenador tiene un userID único, firstName, lastName, photo, y valuation 
 Se especifica la validación para asegurarse de que valuation esté en el rango de 1 a 10.
 Se desactiva el registro de timestamp para este modelo (timestamps: false).
 
-**📍 MODELO 2 | Products.js** 
+**📍 MODELO 2 | Products.js**
 
 Lógica y Funcionalidad:
 
@@ -239,7 +241,7 @@ Cada producto tiene un productID único, name, description, category, price, sto
 Se aplican validaciones para asegurar que price y stockNow sean mayores que cero.
 Se desactiva el registro de timestamp para este modelo (timestamps: false).
 
-**📍 MODELO 3 | Services.js** 
+**📍 MODELO 3 | Services.js**
 
 Lógica y Funcionalidad:
 
@@ -248,7 +250,7 @@ Cada servicio tiene un serviceID único, name, description, category, price, sta
 Se aplican validaciones para asegurar que price y capacity sean mayores que cero.
 Se desactiva el registro de timestamp para este modelo (timestamps: false).
 
-**📍 MODELO 4 | UserProducts.js** 
+**📍 MODELO 4 | UserProducts.js**
 
 Lógica y Funcionalidad:
 
@@ -276,7 +278,7 @@ Cada transacción tiene un userServicesID único, startDate, finishDate, startTi
 Se aplican validaciones para valuation, qty, y unitPrice para asegurar valores válidos.
 Se establecen las relaciones con los modelos Users y Services.
 Se desactiva el registro de timestamp para este modelo (timestamps: false).
-Cada modelo define la estructura de su respectiva tabla en la base de datos y especifica las validaciones necesarias para garantizar la integridad de los datos. Además, se establecen relaciones entre los modelos para reflejar las asociaciones en la base de datos. 
+Cada modelo define la estructura de su respectiva tabla en la base de datos y especifica las validaciones necesarias para garantizar la integridad de los datos. Además, se establecen relaciones entre los modelos para reflejar las asociaciones en la base de datos.
 
 **📍 MODELO 7 | Reviews.js**
 El modelo Reviews representa las revisiones o comentarios realizados por usuarios sobre los servicios que han adquirido. Aquí está la descripción de la lógica y funcionalidad del modelo:
@@ -324,8 +326,9 @@ No utiliza marcas de tiempo para rastrear la creación o actualización de regis
 el Back contara con las siguientes Rutas:
 
 Lógica y Funcionalidad de las Rutas:
+
 1. Ruta: Service.js
-GET /
+   GET /
 
 Lógica:
 Obtiene todos los servicios disponibles.
@@ -354,8 +357,7 @@ PUT /:id
 Lógica:
 Actualiza la información de un servicio específico por su ID.
 Funcionalidad:
-Recibe la información actualizada por el cuerpo de la solicitud y actualiza el servicio en la base de datos.
-2. Ruta: UserProduct.js
+Recibe la información actualizada por el cuerpo de la solicitud y actualiza el servicio en la base de datos. 2. Ruta: UserProduct.js
 GET /
 
 Lógica:
@@ -385,8 +387,7 @@ DELETE /:id
 Lógica:
 Elimina un producto asociado a usuario específico por su ID.
 Funcionalidad:
-Elimina el producto asociado al usuario correspondiente de la base de datos.
-3. Ruta: Users.js
+Elimina el producto asociado al usuario correspondiente de la base de datos. 3. Ruta: Users.js
 GET /
 
 Lógica:
@@ -416,20 +417,19 @@ PUT /:id
 Lógica:
 Actualiza la información de un usuario específico por su ID.
 Funcionalidad:
-Recibe la información actualizada por el cuerpo de la solicitud y actualiza el usuario en la base de datos.
-4. Ruta: userService.js
+Recibe la información actualizada por el cuerpo de la solicitud y actualiza el usuario en la base de datos. 4. Ruta: userService.js
 POST /
 Lógica:
 Crea un nuevo servicio asociado a usuario.
 Funcionalidad:
 Recibe la información del nuevo servicio por el cuerpo de la solicitud y lo asocia al usuario en la base de datos.
 
-<br /> 
+<br />
 
-al tener las rutas su logica y funcionalidad vamos a iniciar con el app y el index como componentes raiz del proyecto (back) 
+al tener las rutas su logica y funcionalidad vamos a iniciar con el app y el index como componentes raiz del proyecto (back)
 
 1. **app.js**
-Lógica:
+   Lógica:
 
 Configuración del servidor Express.
 Uso de middlewares como body-parser, cookie-parser, morgan, y cors.
@@ -445,7 +445,7 @@ Exporta el servidor configurado.
 
 **aqui pondre la funcionalidad y flujo de los controllers**
 
- **autho**
+**autho**
 Funcionalidad:
 
 Este controlador se encarga de obtener un token de autenticación utilizando el flujo de concesión de contraseñas (password Grant) con Auth0.
@@ -457,7 +457,7 @@ Recibe la solicitud con las creencias.
 Realice una solicitud HTTP POST a la URL de Auth0 para obtener el token.
 Si la solicitud es exitosa, retorna el token de acceso. En caso de error, devuelve un mensaje de error.
 
- **chat**
+**chat**
 Funcionalidad:
 
 Este controlador se encarga de realizar una solicitud a la API de OpenAI para obtener una respuesta del modelo de lenguaje GPT-3.
@@ -498,7 +498,7 @@ Busca el entrenador por su ID.
 Si encuentra el entrenador, lo elimina de la base de datos.
 Retorna un mensaje de éxito o un mensaje de error.
 
- **getCoachById.controller**
+**getCoachById.controller**
 Funcionalidad:
 
 Obtiene los detalles de un entrenador por su identificación.
@@ -510,7 +510,7 @@ Valida el formato del documento de identidad proporcionado.
 Busca el entrenador por su ID.
 Si encuentra el entrenador, retorna sus detalles. En caso contrario, devuelve un mensaje de error.
 
- **getCoaches.controller**
+**getCoaches.controller**
 Funcionalidad:
 
 Obtiene la lista de autocares según los filtros y orden proporcionados.
@@ -522,7 +522,7 @@ Defina opciones de filtrado y ordenamiento según los parámetros de la solicitu
 Realice una consulta a la base de datos utilizando las opciones definidas.
 Retorna la lista de entrenadores resultante o un mensaje de error.
 
- **updateCoach.controller**
+**updateCoach.controller**
 Funcionalidad:
 
 Actualiza los detalles de un entrenador por su ID.
@@ -552,7 +552,7 @@ Prepara la información del usuario y el mensaje del correo.
 Utiliza la función sendEmail del manejador de correo electrónico para enviar el correo.
 En caso de éxito, retorna un mensaje indicando que el correo se ha enviado correctamente. En caso de error, retorna un mensaje de error.
 
- **payments/createOrder**
+**payments/createOrder**
 
 Funcionalidad:
 
@@ -570,7 +570,7 @@ Utiliza la función createPreferences para obtener la respuesta de MercadoPago c
 Crea una entrada de orden en la base de datos con la información de la orden y el ID externo proporcionado por MercadoPago.
 Retorna la respuesta de MercadoPago con el enlace de pago.
 
- **payments/updateOrder**
+**payments/updateOrder**
 
 Funcionalidad:
 
@@ -584,8 +584,8 @@ Utiliza la función getOrderOwner para obtener la información del propietario d
 Selecciona el mensaje de correo electrónico correspondiente según el estado de la orden (aprobada, pendiente o fallida).
 Utiliza la función sendEmail para enviar un correo electrónico al usuario notificándole sobre el estado de la orden.
 Redirige a la página principal de la aplicación.
- 
- **products/deleteProductById**
+
+**products/deleteProductById**
 Funcionalidad:
 
 Elimina un producto de la base de datos según el ID proporcionado.
@@ -598,7 +598,7 @@ Si el producto no se encuentra, retorna un mensaje indicando que el producto no 
 Si el producto se encuentra, lo elimina de la base de datos.
 Retorna el producto eliminado.
 
- **products/getProductByID**
+**products/getProductByID**
 Funcionalidad:
 
 Obtiene un producto de la base de datos según el ID proporcionado.
@@ -610,7 +610,7 @@ Busca el producto en la base de datos utilizando el ID.
 Si el producto no se encuentra, retorna un mensaje indicando que el producto no fue encontrado.
 Si el producto se encuentra, retorna el producto.
 
- **products/getProducts**
+**products/getProducts**
 
 Funcionalidad:
 
@@ -653,7 +653,7 @@ Si el producto no se encuentra, retorna un mensaje indicando que el producto no 
 Si el producto se encuentra, actualiza su información en la base de datos.
 Retorna el producto actualizado.
 
- **reviews/changeDisplay**
+**reviews/changeDisplay**
 Funcionalidad:
 
 Actualiza la propiedad display de una revisión en la base de datos según el ID proporcionado.
@@ -693,7 +693,7 @@ Si la revisión no se encuentra, retorna un mensaje indicando que la revisión n
 Si la revisión se encuentra, la elimina de la base de datos.
 Retorna un mensaje indicando que la revisión fue eliminada.
 
- **reviews/getReviews**
+**reviews/getReviews**
 Funcionalidad:
 
 Obtiene la lista de revisiones según los filtros proporcionados.
@@ -706,7 +706,7 @@ Construye las opciones de consulta en base a los filtros recibidos.
 Realiza una búsqueda de revisiones en base a los filtros.
 Retorna la lista de revisiones encontradas.
 
- **services/createService**
+**services/createService**
 
 Funcionalidad:
 
@@ -724,7 +724,7 @@ Crea el nuevo servicio en la base de datos.
 Asigna los coaches al servicio a través de la tabla intermedia ServiceCoach.
 Retorna el servicio creado o un mensaje indicando que el servicio ya existe.
 
- **services/deleteServiceById**
+**services/deleteServiceById**
 Funcionalidad:
 
 Elimina un servicio de la base de datos según el ID proporcionado.
@@ -738,7 +738,7 @@ Si el servicio no se encuentra, retorna un mensaje indicando que el servicio no 
 Si el servicio se encuentra, lo elimina de la base de datos.
 Retorna un mensaje indicando que el servicio fue eliminado.
 
- **services/getAllServices**
+**services/getAllServices**
 Funcionalidad:
 
 Obtiene la lista de servicios según los filtros proporcionados.
@@ -765,7 +765,7 @@ Busca el servicio en la base de datos utilizando el ID.
 Si el servicio no se encuentra, retorna un mensaje indicando que el servicio no fue encontrado.
 Si el servicio se encuentra, lo retorna.
 
- **services/updateService**
+**services/updateService**
 Funcionalidad:
 
 Actualiza la información de un servicio en la base de datos según el ID proporcionado.
@@ -797,7 +797,7 @@ Si el usuario se crea a través de Auth0, verifica la no existencia del usuario 
 Crea el nuevo usuario en la base de datos.
 Retorna el usuario creado o un mensaje indicando que el usuario ya existe.
 
- **user/deleteUserById**
+**user/deleteUserById**
 
 Funcionalidad:
 
@@ -829,7 +829,6 @@ Recibe la solicitud con los filtros, paginación y ordenamiento proporcionados.
 Construye las opciones de consulta en base a los filtros recibidos.
 Realiza la búsqueda de usuarios en base a las opciones configuradas.
 Retorna la lista de usuarios encontrados.
-
 
 **user/getUserById**
 Funcionalidad:
@@ -881,7 +880,6 @@ Si se actualizan favoritos, realiza la operación correspondiente (agregar o qui
 Actualiza la información del usuario en la base de datos.
 Retorna el usuario actualizado o un mensaje indicando un error.
 
-
 **userProducts/createUserProduct**
 Funcionalidad:
 
@@ -897,7 +895,7 @@ Si el usuario o el producto no se encuentran, retorna un mensaje indicando que n
 Crea el nuevo registro de producto para el usuario en la base de datos.
 Retorna el registro creado o un mensaje de error.
 
- **userProducts/deleteUserProductById**
+**userProducts/deleteUserProductById**
 Funcionalidad:
 
 Elimina un registro de producto para un usuario según el ID proporcionado.
@@ -910,7 +908,7 @@ Si el registro de producto no se encuentra, retorna un mensaje indicando que no 
 Elimina el registro de producto de la base de datos.
 Retorna un mensaje indicando que el registro fue eliminado.
 
- **userProducts/getAllUserProducts**
+**userProducts/getAllUserProducts**
 Funcionalidad:
 
 Obtiene la lista de todos los registros de productos para usuarios según los filtros proporcionados.
@@ -924,7 +922,7 @@ Construye las opciones de consulta en base a los filtros recibidos.
 Realiza la búsqueda de registros de productos en base a las opciones configuradas.
 Retorna la lista de registros de productos encontrados.
 
- **userProducts/getUserProductById**
+**userProducts/getUserProductById**
 Funcionalidad:
 
 Obtiene un registro de producto para un usuario según el ID proporcionado.
@@ -992,7 +990,7 @@ Construye las opciones de consulta en base a los filtros recibidos.
 Realiza la búsqueda de registros de servicios en base a las opciones configuradas.
 Retorna la lista de registros de servicios encontrados.
 
- **userServices/getUserServiceById**
+**userServices/getUserServiceById**
 Funcionalidad:
 
 Obtiene un registro de servicio para un usuario según el ID proporcionado.
@@ -1004,7 +1002,7 @@ Busca el registro de servicio en la base de datos utilizando el ID.
 Si el registro de servicio no se encuentra, retorna un mensaje indicando que no se encontró el registro.
 Retorna el registro de servicio encontrado.
 
- **userServices/sendBulkEmails**
+**userServices/sendBulkEmails**
 Funcionalidad:
 
 Envía correos electrónicos masivos a los usuarios cuyos servicios cumplen con ciertos criterios.
@@ -1017,7 +1015,7 @@ Obtiene los servicios según los filtros configurados.
 Envía correos electrónicos masivos a los usuarios asociados a los servicios obtenidos.
 Retorna un mensaje indicando que los correos electrónicos fueron enviados correctamente.
 
- **userServices/updateUserService**
+**userServices/updateUserService**
 Funcionalidad:
 
 Actualiza la información de un registro de servicio para un usuario según el ID proporcionado.
@@ -1032,7 +1030,7 @@ Retorna el registro de servicio actualizado o un mensaje de error.
 
 **logica y funcionamiento de los otros compoentes - controller**
 
- **sendWsMessage.controller.js**
+**sendWsMessage.controller.js**
 Funcionalidad:
 Envía mensajes a través de WhatsApp utilizando la API de WhatsApp Business.
 Logica:
@@ -1074,8 +1072,7 @@ Se retorna una respuesta HTTP indicando el resultado del intento de enviar el me
 
 **logica y funcionamiento del Handler**
 
-
- **sendEmail**
+**sendEmail**
 Funcionalidad y Flujo:
 Funcionalidad:
 
@@ -1107,10 +1104,9 @@ Salida:
 
 La función retorna una promesa que se resuelve con el resultado del envío del correo.
 
-
 **createOrders**
 
- Funcionalidad y Flujo:
+Funcionalidad y Flujo:
 Funcionalidad:
 
 Crea órdenes en la base de datos en función de los productos y servicios comprados.
@@ -1132,7 +1128,7 @@ Salida:
 
 No hay un resultado directo que se retorne; la función realiza cambios en la base de datos.
 
- **createPreferences**
+**createPreferences**
 
 Funcionalidad y Flujo:
 
@@ -1159,7 +1155,7 @@ Salida:
 
 La función retorna un objeto que contiene la respuesta de MercadoPago y el external_reference.
 
- **getOrderOwner**
+**getOrderOwner**
 Funcionalidad y Flujo:
 
 Funcionalidad:
@@ -1180,7 +1176,7 @@ Salida:
 
 La función retorna un objeto de usuario (User).
 
- **updateOrder**
+**updateOrder**
 Funcionalidad y Flujo:
 
 Funcionalidad:
@@ -1198,7 +1194,7 @@ Salida:
 
 No hay un resultado directo que se retorne; la función realiza cambios en la base de datos.
 
- **validateItem**
+**validateItem**
 Funcionalidad y Flujo:
 
 Funcionalidad:
@@ -1220,7 +1216,7 @@ Salida:
 
 No hay un resultado directo que se retorne; la función arroja errores si la validación no es exitosa.
 
- **validateItems**
+**validateItems**
 Funcionalidad y Flujo:
 
 Funcionalidad:
@@ -1238,7 +1234,7 @@ Salida:
 
 No hay un resultado directo que se retorne; la función arroja errores si la validación no es exitosa.
 
- **sendBulkEmail**
+**sendBulkEmail**
 Funcionalidad y Flujo:
 Funcionalidad:
 
@@ -1256,7 +1252,7 @@ Para cada orden en la lista, se extrae la información del destinatario y se env
 Salida:
 No hay un resultado directo que se retorne; la función realiza el envío de correos electrónicos.
 
- **sendWsMessage**
+**sendWsMessage**
 
 Funcionalidad y Flujo:
 Funcionalidad:
@@ -1278,7 +1274,6 @@ Salida:
 
 La función retorna un objeto que contiene la información del mensaje enviado.
 
-
 **la importancia de la carpeta utils**
 
 La carpeta utils en la aplicación backend generalmente se va a utilizar para almacenar funciones y utilidades reutilizables en diversos lugares del código. Estas funciones pueden abordar tareas comunes, como validaciones, formateo de datos, manipulación de fechas, y otras operaciones que se repiten en diferentes partes de la aplicación. de esta manera se esta utilizando los archivos en la carpeta utils:
@@ -1287,7 +1282,7 @@ La carpeta utils en la aplicación backend generalmente se va a utilizar para al
 
 validateSimpleDate, isValidEmail, isValidPhoneNumber, isValidHourMinuteFormat, isValidUUID, isValidImageUrl, parseIntStrict, isStringLengthInRange, isValidPositiveInteger, isValidPositiveNumber: Estas funciones parecen estar destinadas a validar diferentes tipos de datos, como fechas, direcciones de correo electrónico, números de teléfono, etc. Son útiles para garantizar que los datos ingresados en la aplicación cumplan con ciertos criterios.
 
- **Funciones de Comparación:**
+**Funciones de Comparación:**
 
 **arrayEquals:** Compara dos arrays para verificar si son iguales. Esto puede ser útil en situaciones donde necesitas verificar si dos conjuntos de datos son idénticos.
 Funciones de Autenticación y Autorización:
@@ -1295,15 +1290,15 @@ Funciones de Autenticación y Autorización:
 **AuthUtils.js:** Contiene funciones relacionadas con la autenticación, como verificar si un usuario es un administrador y obtener un UUID único del usuario. Estas funciones son cruciales para la gestión de permisos y roles en la aplicación.
 Otras Utilidades Generales:
 
- **toTitle:** Probablemente, esta función se utiliza para convertir cadenas de texto a formato de título.
+**toTitle:** Probablemente, esta función se utiliza para convertir cadenas de texto a formato de título.
 Exportación Conjunta:
 
 **index.js:** Combina todas las funciones de los archivos individuales en un solo objeto, facilitando su importación en otras partes del código. Esto permite que el código sea más modular y fácil de mantener.
 En resumen, la carpeta utils centraliza funciones comunes y utilidades que pueden ser utilizadas en diferentes partes de la aplicación, promoviendo la reutilización del código y facilitando la mantenibilidad. Además, proporciona un lugar organizado para funciones que no necesariamente pertenecen
 
- **funcionalidad y flujo**
+**funcionalidad y flujo**
 
- **checkUserServices**
+**checkUserServices**
 Funcionalidad:
 
 Verifica los servicios de usuario que están a punto de expirar o tienen una notificación de días y envía correos electrónicos a los usuarios correspondientes.
@@ -1345,7 +1340,7 @@ Salida:
 
 Retorna la plantilla HTML completa como una cadena de texto.
 
- **samples.js**
+**samples.js**
 Funcionalidad:
 
 Define ejemplos de mensajes de correo electrónico para diferentes estados de una orden.
@@ -1355,7 +1350,7 @@ Proporciona mensajes de ejemplo para situaciones de éxito, fallo y pendientes, 
 
 Carpeta de pagination:
 
- **setoffsetAndLimit.js**
+**setoffsetAndLimit.js**
 Funcionalidad:
 
 Establece el offset y el límite para la paginación de consultas.
@@ -1378,7 +1373,7 @@ Retorna un objeto con offset y limit para ser utilizado en consultas de paginaci
 
 Carpeta de services:
 
- **setUpFilters.js**
+**setUpFilters.js**
 Funcionalidad:
 
 Configura los filtros para consultas de servicios.
@@ -1394,7 +1389,7 @@ Salida:
 
 Retorna el objeto de filtros configurado.
 
- **setUpSorting.js**
+**setUpSorting.js**
 Funcionalidad:
 
 Configura el orden para consultas de servicios.
@@ -1424,7 +1419,7 @@ Salida:
 
 Retorna el objeto de filtros configurado.
 
- **setUpSorting.js**
+**setUpSorting.js**
 Funcionalidad:
 
 Configura el orden para consultas de usuarios.
@@ -1439,7 +1434,7 @@ Retorna una lista de campos y direcciones para ser utilizados en la cláusula or
 
 Carpeta de userServices:
 
- **arrayEquals.js**
+**arrayEquals.js**
 Funcionalidad:
 
 Compara dos arrays para determinar si son iguales.
@@ -1451,7 +1446,7 @@ Salida:
 
 Retorna true si los arrays son iguales, false de lo contrario.
 
- **uthUtils.js**
+**uthUtils.js**
 Funcionalidad:
 
 Contiene funciones relacionadas con la autenticación y permisos de usuario.
@@ -1465,7 +1460,7 @@ Salida:
 
 Retorna true o false para isAdmin, y un UUID para getUUID.
 
- **index.js**
+**index.js**
 Funcionalidad:
 
 Combina y exporta utilidades de varios archivos.
@@ -1575,12 +1570,12 @@ Lógica: Utiliza una expresión regular para verificar si la cadena cumple con e
 Funcionalidad: Valida si un número (o cadena) es un entero positivo.
 Lógica: Verifica si es un entero, no es NaN y es mayor o igual a cero.
 
- **isValidPositiveNumber.js:**
+**isValidPositiveNumber.js:**
 
 Funcionalidad Valida si un número (o cadena) es un número positivo.
 Lógica: Verifica si no es NaN y es mayor o igual a cero.
 
- **isValidUUID.js:**
+**isValidUUID.js:**
 
 Funcionalidad: Valida si una cadena es un UUID válido.
 Lógica: Utiliza una expresión regular para verificar si la cadena coincide con el formato de UUID.
@@ -1601,6 +1596,7 @@ Funcionalidad: Valida si una cadena es una fecha en formato YYYY-MM-DD.
 Lógica: Utiliza una expresión regular para verificar si la cadena cumple con el formato de fecha.
 
 [**IMPORTANTE**]:
+
 ### **🖱 hay que aclarar que con el tiempo fueron desarrollando distintas y nuevas funciones en el back las cuales no estan documentadas en el Readme pero espero que puedan comprender su logica, funcionalidad y flujo de estas**
 
 ---

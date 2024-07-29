@@ -1,12 +1,8 @@
-const { Products, Users, UserProducts, Services, UserServices } = require("../../db");
+const { Products, Users, UserProducts, Services, UserServices } = require('../../db')
 
 module.exports = async (userId, items, external_reference) => {
     for (const item of items) {
-        const {
-            id,
-            currency_id,
-            quantity,
-        } = item
+        const { id, currency_id, quantity } = item
 
         const product = await Products.findByPk(item.id)
         const service = product ? null : await Services.findByPk(item.id)
@@ -18,7 +14,7 @@ module.exports = async (userId, items, external_reference) => {
 
             await product.update({
                 stockNow: finalStock >= 0 ? finalStock : product.stockNow,
-                status: !finalStock ? "Not available" : product.status,
+                status: !finalStock ? 'Not available' : product.status,
             })
 
             // Create order
@@ -37,13 +33,12 @@ module.exports = async (userId, items, external_reference) => {
                 description: product.description,
                 title: product.name,
                 mp_payment_id: null,
-                mp_status: "created",
+                mp_status: 'created',
                 mp_merchant_order_id: null,
                 mp_external_reference: external_reference,
             })
-        }
-        else if (service) {
-            const { startDate, finishDate, days_notice, } = item
+        } else if (service) {
+            const { startDate, finishDate, days_notice } = item
 
             // Reduce service seats
 
@@ -65,13 +60,12 @@ module.exports = async (userId, items, external_reference) => {
                 description: service.description,
                 title: service.name,
                 mp_payment_id: null,
-                mp_status: "created",
+                mp_status: 'created',
                 mp_merchant_order_id: null,
                 mp_external_reference: external_reference,
             })
-        }
-        else {
-            throw new Error("Item not found")
+        } else {
+            throw new Error('Item not found')
         }
     }
 }

@@ -1,15 +1,14 @@
-const axios = require("axios").default
+const axios = require('axios').default
 
 const getResponse = async (req, res) => {
-
     const options = {
         method: 'POST',
-        url: "https://api.openai.com/v1/chat/completions",
+        url: 'https://api.openai.com/v1/chat/completions',
         headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${process.env.CHATBOT_API_KEY}`
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${process.env.CHATBOT_API_KEY}`,
         },
-        data: req.body
+        data: req.body,
     }
     try {
         const { data } = await axios.request(options)
@@ -20,4 +19,4 @@ const getResponse = async (req, res) => {
     }
 }
 
-module.exports = getResponse;
+module.exports = getResponse

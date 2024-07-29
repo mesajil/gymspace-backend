@@ -1,36 +1,38 @@
-const { Users, Services, Reviews } = require('../../db');
-const { Op } = require("sequelize")
-const setUsersFilters = require("../users/setFilters")
-const setUpServicesFilters = require("../services/setUpFilters")
-const { conn } = require("../../db")
+const { Users, Services, Reviews } = require('../../db')
+const { Op } = require('sequelize')
+const setUsersFilters = require('../users/setFilters')
+const setUpServicesFilters = require('../services/setUpFilters')
+const { conn } = require('../../db')
 
-module.exports = (filters) => {
+module.exports = filters => {
     let userServicesOptions = {}
     const {
-        startDate, finishDate,
-        startDateAfter, startDateBefore,
-        finishDateAfter, finishDateBefore,
+        startDate,
+        finishDate,
+        startDateAfter,
+        startDateBefore,
+        finishDateAfter,
+        finishDateBefore,
         userId,
         serviceId,
         external_reference,
-        sql
+        sql,
     } = filters
 
-    if (startDate) userServicesOptions["startDate"] = { [Op.eq]: startDate }
-    if (finishDate) userServicesOptions["finishDate"] = { [Op.eq]: finishDate }
+    if (startDate) userServicesOptions['startDate'] = { [Op.eq]: startDate }
+    if (finishDate) userServicesOptions['finishDate'] = { [Op.eq]: finishDate }
     /**
-     * Los filtros "After" y "Before" permiten filtrar fechas para un rango dado. 
+     * Los filtros "After" y "Before" permiten filtrar fechas para un rango dado.
      */
-    if (startDateAfter) userServicesOptions["startDate"] = { [Op.gte]: startDateAfter }
-    if (startDateBefore) userServicesOptions["startDate"] = { [Op.lte]: startDateBefore }
-    if (finishDateAfter) userServicesOptions["finishDate"] = { [Op.gte]: finishDateAfter }
-    if (finishDateBefore) userServicesOptions["finishDate"] = { [Op.lte]: finishDateBefore }
+    if (startDateAfter) userServicesOptions['startDate'] = { [Op.gte]: startDateAfter }
+    if (startDateBefore) userServicesOptions['startDate'] = { [Op.lte]: startDateBefore }
+    if (finishDateAfter) userServicesOptions['finishDate'] = { [Op.gte]: finishDateAfter }
+    if (finishDateBefore) userServicesOptions['finishDate'] = { [Op.lte]: finishDateBefore }
 
-    if (userId) userServicesOptions["userID"] = { [Op.eq]: userId }
-    if (serviceId) userServicesOptions["serviceID"] = { [Op.eq]: serviceId }
+    if (userId) userServicesOptions['userID'] = { [Op.eq]: userId }
+    if (serviceId) userServicesOptions['serviceID'] = { [Op.eq]: serviceId }
 
-    if (external_reference)
-        userServicesOptions["mp_external_reference"] = { [Op.eq]: external_reference }
+    if (external_reference) userServicesOptions['mp_external_reference'] = { [Op.eq]: external_reference }
 
     if (sql) userServicesOptions = conn.literal(sql)
     /**
@@ -67,28 +69,15 @@ module.exports = (filters) => {
             {
                 model: Users,
                 where: setUsersFilters(userFilters),
-                attributes: [
-                    'userID',
-                    'firstName',
-                    'lastName',
-                    'email',
-                ],
+                attributes: ['userID', 'firstName', 'lastName', 'email'],
             },
             {
                 model: Services,
                 where: setUpServicesFilters(serviceFilters),
-                attributes: [
-                    'serviceID',
-                    'name',
-                    'description',
-                    "startTime",
-                    "status",
-                    "coachID",
-                    "image",
-                ],
+                attributes: ['serviceID', 'name', 'description', 'startTime', 'status', 'coachID', 'image'],
             },
             {
-                model: Reviews, 
+                model: Reviews,
                 attributes: [
                     'reviewID',
                     // 'rating',

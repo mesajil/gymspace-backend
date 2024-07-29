@@ -1,11 +1,8 @@
-const { Router } = require("express");
-const sendWsMessage = require("../controllers/whatsapp/sendWsMessage");
+const { Router } = require('express')
+const sendWsMessage = require('../controllers/whatsapp/sendWsMessage')
 
-const router = Router();
+const router = Router()
 
-router.post("/send-message", sendWsMessage)
+router.post('/send-message', sendWsMessage)
 
 module.exports = router
-
-
-
